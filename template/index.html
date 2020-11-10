@@ -1,0 +1,149 @@
+<html>
+	<style>
+	body {
+	  background-image: linear-gradient(rgba(34,193,195,100),rgba(253,187,45,100))
+	}
+
+	h1 {
+	  color: white;
+	  text-align: center;
+	}
+
+	p {
+	  font-family: verdana;
+	  font-size: 20px;
+	}
+	#grad {
+	background-image: linear-gradient(red, yellow);
+	}
+	</style>
+<body class=grad>
+    <h3>Banking</h3>
+
+<div>
+  <form action="/result" method="POST">
+    <label for="age">Age</label>
+    <input type="text" id="age" name="age">
+    <br>
+    <label for="job_class">job</label>
+    <select id="job_class" name="JOB_class">
+      <option value="0">management</option>
+      <option value="1">blue-collar</option>
+      <option value="2">technician</option>
+      <option value="3">admin</option>
+      <option value="4">services</option>
+      <option value="5">retired</option>
+      <option value="6">self-employed</option>
+      <option value="7">enterpreneur</option>
+      <option value="8">unemployed</option>
+      <option value="9">housemaid</option>
+      <option value="10">student</option>
+      <option value="11">unknown</option>
+    </select>
+    <br>
+    <label for="mar">marital</label>
+    <select id="mar" name="mar">
+      <option value="0">married</option>
+      <option value="1">single</option>
+      <option value="2">divorced</option>
+    
+    </select>
+    
+    <br>
+    <label for="edu">education</label>
+    <select id="edu" name="edu">
+      <option value="0">secondary</option>
+      <option value="1">tertiary</option>
+      <option value="2">primary</option>
+      <option value="3">unknown</option>
+    </select>
+     <br>
+    <label for="def">defalult</label>
+    <select id="def" name="def">
+      <option value="0">yes</option>
+      <option value="1">no</option>
+    </select>
+    <br>
+    <label for="bal">balance</label>
+    <input type="text" id="bal" name="bal">
+    
+    <br>
+    <label for="hou">housing</label>
+    <select id="hou" name="hou">
+      <option value="0">yes</option>
+      <option value="1">no</option>
+
+    </select>
+    <br>
+    <label for="loa">loan</label>
+    <select id="loa" name="loa">
+      <option value="0">yes</option>
+      <option value="1">no</option>
+    </select>
+
+    <br>
+    <label for="con">contact</label>
+    <select id="con" name="con">
+      <option value="0">cellular</option>
+      <option value="1">telephone</option>
+      <option value="2">unknown</option>
+    </select>
+
+    <br>
+    <label for="c_gain">day </label>
+    <input type="text" id="c_gain" name="c_gain">btw:[1-30]
+   
+    <br>
+    <label for="mon">month</label>
+    <select id="mon" name="mon">
+      <option value="0">Jan</option>
+      <option value="1">Feb</option>
+      <option value="2">Mar</option>
+      <option value="3">Apr</option>
+      <option value="4">May</option>
+      <option value="5">Jun</option>
+      <option value="6">July</option>
+      <option value="7">Aug</option>
+      <option value="8">Sep</option>
+      <option value="9">Oct</option>
+      <option value="10">Nov</option>
+      <option value="11">Dec</option>
+    </select>
+    
+    <br>
+    <label for="d_loss">duraction </label>
+    <input type="text" id="c_loss" name="c_loss">btw:[0-634]
+    
+    <br>
+    <label for="cam">campaingn </label>
+    <input type="text" id="cam" name="cam">btw:[0-50]
+    
+    <br>
+    <label for="pad">pdays</label>
+    <input type="text" id="pad" name="pad">btw:[-1-397]
+    
+    <br>
+    <label for="pre">previous</label>
+    <input type="text" id="pre" name="pad">btw:[0-18]
+    
+    
+
+
+    <br>
+    <label for="pout_cm">poutcome</label>
+    <select id="pout_cm" name="pout_cm">
+      <option value="0">unknown</option>
+      <option value="1">failure</option>
+      <option value="2">other</option>
+      <option value="3">success</option>
+     
+   
+    </select>
+    <br>
+    <input type="submit" value="Submit">
+  </form>
+</div>
+</body>
+</html>
+
+
